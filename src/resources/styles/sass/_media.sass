@@ -1,0 +1,346 @@
+// ≥1200px		
++media-breakpoint-down(lg)
+	.banner
+		padding-bottom: 156px
+		.desc
+			padding-bottom: 39px
+	.about
+		img
+			padding-left: 0
+		.h2
+			padding-bottom: 10px
+		.h3
+			padding-top: 23px
+		.btn
+			padding-top: 14px
+	.relationships
+		padding-top: 124px
+		padding-bottom: 139px
+	.requirements
+		padding-top: 130px
+		padding-bottom: 154px
+		img
+			padding-top: 16px
+	.users-list__item
+		padding-bottom: 70px
+	.sign-up
+		padding-top: 98px
+		padding-bottom: 138px
+	.form__select
+		background-position: 96% 50% 
+
+// ≥992px
++media-breakpoint-down(md)
+	.backdrop
+		display: block
+	.header
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		.nav-menu
+			display: none
+		.user
+			display: none
+		.toggle-menu
+			display: flex
+			margin-right: -3px
+			font-size: 24px
+	.mobile-menu
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		align-items: start
+		padding-left: 24px
+		padding-top: 30px
+		padding-bottom: 200px
+		.log-out
+			font-size: 16px
+			margin: 0
+			width: auto
+			padding: 0
+		.nav-menu
+			display: flex
+			flex-direction: column
+			&__item
+				padding-left: 0
+				padding-right: 0
+				padding-bottom: 27px
+		.user
+			display: flex
+			flex-direction: column
+			align-items: start
+			padding-bottom: 59px
+			&__avatar
+				order: -1
+				height: 66px
+				width: 66px
+				margin-bottom: 17px
+			&-block
+				text-align: left
+			&__name
+				font-size: 20px
+				padding-bottom: 7px
+			&__email
+				font-size: 13px
+			.log-out
+				display: none
+	.banner
+		padding-top: 178px
+		padding-bottom: 119px
+		.h1
+			line-height: 50px 
+		.desc
+			line-height: 24px
+			padding-bottom: 35px
+	.about
+		padding-top: 108px
+		img
+			height: 218px
+			margin-top: 22px
+	.relationships
+		padding-bottom: 73px
+		.list
+			&__item
+				padding-bottom: 50px
+			.h3
+				padding-top: 0
+		.icon
+			font-size: 100px
+	.requirements
+		padding-top: 117px
+		padding-bottom: 111px
+		.h2
+			line-height: 48px
+			padding-bottom: 31px
+		img
+			padding-top: 4px
+	.users
+		padding-top: 110px
+		&-list
+			padding-top: 42px
+			-webkit-box-sizing: border-box 
+			-moz-box-sizing: border-box 
+			box-sizing: border-box 
+			&__item
+				display: flex
+				flex-direction: column
+				align-items: center
+				padding-bottom: 47px
+		&-info
+			text-align: center
+			padding-top: 4px
+			padding-bottom: 0
+		&__name
+			padding-bottom: 0
+		&__email
+			max-width: 206px
+			white-space: nowrap
+			overflow: hidden
+			text-overflow: ellipsis
+	.sign-up
+		padding-top: 79px
+		padding-bottom: 117px
+		.h2
+			padding-bottom: 10px
+		.form
+			padding-top: 57px
+	.footer
+		&-top
+			padding-top: 30px
+		.contact
+			padding-top: 9px
+			font-size: 18px
+			&__item
+				padding-bottom: 25px
+			&__icon
+				display: none
+
+// ≥768px
++media-breakpoint-down(sm)
+	.mobile-menu
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		align-items: start
+		padding-left: 24px
+		padding-top: 30px
+		padding-bottom: 200px
+		.log-out
+			font-size: 16px
+			margin: 0
+			width: auto
+			padding: 0
+		.nav-menu
+			display: flex
+			flex-direction: column
+			&__item
+				padding-left: 0
+				padding-right: 0
+				padding-bottom: 27px
+		.user
+			display: flex
+			flex-direction: column
+			align-items: start
+			padding-bottom: 59px
+			&__avatar
+				order: -1
+				height: 66px
+				width: 66px
+				margin-bottom: 17px
+			&-block
+				text-align: left
+			&__name
+				font-size: 20px
+				padding-bottom: 7px
+			&__email
+				font-size: 13px
+			.log-out
+				display: none
+	.banner
+		text-align: center
+	.about
+		text-align: center
+	.relationships
+		.list
+			&__item
+				text-align: center
+	.users__email
+		max-width: 206px
+		white-space: nowrap
+		overflow: hidden
+		text-overflow: ellipsis
+	.footer
+		&-part
+			display: none !important
+		&-top
+			flex-direction: column
+		.nav-menu
+			flex-direction: column
+			-webkit-align-items: center
+			align-items: center
+			&__item
+				text-align: center
+				padding-left: 0
+				padding-right: 0
+		&-bottom
+			.contact
+				&__item
+					text-align: center
+					display: flex
+					justify-content: center
+		&-more
+			flex-direction: column
+			.social
+				order: -1
+
+// ≥576px
++media-breakpoint-down(xs)
+	.mobile-menu
+		padding-left: 15px
+		width: 250px
+	.h2
+		font-size: 26px
+		line-height: 32px
+	.h3
+		font-size: 22px
+	.banner
+		padding-top: 131px
+		padding-bottom: 68px
+		.h1
+			font-size: 30px
+			line-height: 34px
+			padding-bottom: 0
+		.desc
+			font-size: 16px
+			line-height: 22px
+			height: 62px
+			overflow: hidden 
+			margin-bottom: 44px
+		.large-text
+			display: none
+	.about
+		padding-top: 68px
+		.h2
+			padding-bottom: 0px
+		img
+			margin-top: 17px
+		.h3
+			padding-top: 27px
+			padding-left: 30px
+			padding-right: 30px
+			text-align: center
+		.btn
+			padding-top: 7px
+			padding-right: 0
+		
+	.relationships
+		padding-top: 53px
+		padding-bottom: 59px
+		.h2
+			padding-bottom: 20px
+			line-height: 32px
+		.h3
+			padding-top: 17px !important
+			line-height: 17px
+		.list
+			&__item
+				padding-bottom: 22px
+	.requirements
+		padding-top: 66px
+		padding-bottom: 76px
+		.h2
+			line-height: 32px
+			padding-bottom: 11px
+		img
+			height: 221px
+			margin-bottom: 25px
+		.desc
+			text-align: center
+	.users
+		padding-top: 67px
+		.desc
+			font-size: 16px
+			line-height: 22px
+			text-align: center
+		.h2
+			line-height: 32px
+		&-list
+			padding-top: 32px
+	.sign-up
+		padding-top: 16px
+		padding-bottom: 62px
+		.h2
+			line-height: 32px
+			padding-bottom: 5px
+		.form
+			padding-top: 40px
+			&-block
+				padding-bottom: 35px
+		.input
+			&__label
+				display: none
+				&--file
+					display: block
+			.file
+				&__name
+					padding-bottom: 27px
+	.footer				
+		.logo
+			margin-bottom: 20px			
+	.nav-menu
+		&__item
+			padding-bottom: 10px
+	.footer
+		&-top
+			padding-bottom: 21px
+		.contact
+			&__item
+				padding-bottom: 17px
+		.social
+			padding-bottom: 13px
+			&__item
+				&:first-child
+					margin-left: 0
+				&:last-child
+					margin-right: 0
